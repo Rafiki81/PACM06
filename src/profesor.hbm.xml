@@ -5,7 +5,7 @@
 <hibernate-mapping>
     <class name="hibernate.Profesor" table="Profesores" catalog="M06">
         <id name="id">
-            <column name="alumno_id"/>
+            <column name="profesor_id"/>
             <generator class="assigned"></generator>
         </id>
         <property name="nombre"></property>
