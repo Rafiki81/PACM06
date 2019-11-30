@@ -11,6 +11,14 @@
         <property name="nombre"></property>
         <property name="nacionalidad"></property>
         <property name="edad"></property>
+        <array name="modulos"
+               table="Modulos"
+               cascade="persist">
+            <key column="modulo_id"/>
+            <list-index column="sortOrder"/>
+            <one-to-many class="Modulo"/>
+        </array
+        >
         <property name="modulos"></property>
         <property name="sexo"></property>
     </class>
