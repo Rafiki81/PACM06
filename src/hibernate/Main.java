@@ -40,7 +40,6 @@ public class Main {
         modulos.add(programacionA);
         modulos.add(basesDatos);
         alumno1.setModulos(modulos);
-        alumno1.setModulos(modulos);
 
         File ficheroAlumno = new File("FicherosSalida/alumno");
         try {
