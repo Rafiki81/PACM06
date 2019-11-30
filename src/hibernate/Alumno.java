@@ -1,9 +1,11 @@
 package hibernate;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Alumno {
+public class Alumno implements Serializable {
 
+    private static final long serialVersionUID = 1L;
     private int id;
     private String nombre;
     private String nacionalidad;

@@ -1,7 +1,10 @@
 package hibernate;
 
-public class Modulo {
+import java.io.Serializable;
 
+public class Modulo implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     private int id;
     private String nombre;
     private String codigo;

@@ -1,7 +1,10 @@
 package hibernate;
 
-public class Profesor {
+import java.io.Serializable;
 
+public class Profesor implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     private int id;
     private String nombre;
     private String sexo;
