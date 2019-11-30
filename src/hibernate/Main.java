@@ -42,7 +42,7 @@ public class Main {
         alumno1.setModulos(modulos);
         alumno1.setModulos(modulos);
 
-        File ficheroAlumno = new File("Ficheros/alumno");
+        File ficheroAlumno = new File("FicherosSalida/alumno");
         try {
             FileOutputStream file = new FileOutputStream(ficheroAlumno, true);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(file);
@@ -51,7 +51,7 @@ public class Main {
             System.out.println("No se ha podido escribir en el fichero");
         }
 
-        File ficheroModulo = new File("Ficheros/modulo");
+        File ficheroModulo = new File("FicherosSalida/modulo");
         try {
             FileOutputStream file = new FileOutputStream(ficheroModulo, true);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(file);
@@ -60,7 +60,7 @@ public class Main {
             System.out.println("No se ha podido escribir en el fichero");
         }
 
-        File ficheroProfesor = new File("Ficheros/profesor");
+        File ficheroProfesor = new File("FicherosSalida/profesor");
         try {
             FileOutputStream file = new FileOutputStream(ficheroProfesor, true);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(file);
