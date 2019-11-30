@@ -17,8 +17,7 @@
             <key column="modulo_id"/>
             <list-index column="sortOrder"/>
             <one-to-many class="Modulo"/>
-        </array
-        >
+        </array>
         <property name="modulos"></property>
         <property name="sexo"></property>
     </class>
