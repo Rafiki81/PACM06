@@ -11,6 +11,7 @@
         <property name="nombre"></property>
         <property name="nacionalidad"></property>
         <property name="edad"></property>
+        <property name="modulos"></property>
         <property name="sexo"></property>
     </class>
 </hibernate-mapping>
